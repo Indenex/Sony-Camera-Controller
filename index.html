@@ -1,0 +1,104 @@
+<!doctype html>
+
+<!-- 
+
+Due to the required x-domain authentication in the camera iFrames this application will only work natively within Firefox.
+A workaround for Chrome can be implemented via command line arguements seen here:
+https://stackoverflow.com/questions/45039335/bypass-blocking-of-subresource-requests-whose-urls-contain-embedded-credentials
+
+-->
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> 
+    <html class="no-js" lang=""> 
+<!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>[Company] Camera Viewer</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link rel="stylesheet" href="css/main.css">
+    
+    </head>
+    
+    <body class="bkg">
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+
+
+        <h1 id="Header"> [Company] Audio Visual </h1>
+        <div class="navbar">
+            <ul>    
+                <li class="dropdown">
+                <a href="#" class="navbtn" id="dropbtn"> View Classroom </a>
+                <div class="dropdown-content">
+                <a href="#" id="btn1034"> 1034 </a>
+                <a href="#" id="btn1035"> 1035 </a>
+                <a href="#" id="btn1036"> 1036 </a>
+                <a href="#" id="btn1037"> 1037</a>
+                <a href="#" id="btn1038"> 1038 </a>
+                <a href="#" id="btn1039"> 1039 </a>
+                <a href="#" id="btn1040"> 1040 </a>
+                <a href="#" id="btn1041"> 1041 </a>
+                <a href="#" id="btn1042"> 1042 </a>
+                <a href="#" id="btn1043"> 1043 </a>
+                <a href="#" id="btn1044"> 1044 </a>
+                <a href="#" id="btn1045"> 1045 </a>
+                <a href="#" id="btn1046"> 1046 </a>
+                <a href="#" id="btn1047"> 1047 </a>
+                <a href="#" id="btn1052"> 1052 </a>
+                <a href="#" id="btn1053"> 1053 </a>
+                <a href="#" id="btn1054"> 1054 </a>
+                <a href="#" id="btn1055"> 1055 </a>
+                <a href="#" id="btn1056"> 1056 </a>
+                <a href="#" id="btn1058"> 1058 </a>
+                <a href="#" id="btn1059"> 1059 </a>
+                <a href="#" id="btn1060"> 1060 </a>
+                <a href="#" id="btn1061"> 1061 </a>
+                <a href="#" id="btn1062"> 1062 </a>
+                <a href="#" id="btn1065"> 1065 </a>
+                <a href="#" id="btn1066"> 1066 </a>
+                <a href="#" id="btn1067"> 1067 </a>
+                <a href="#" id="btn1068"> 1068 </a>
+                <a href="#" id="btn1069"> 1069 </a>
+                <a href="#" id="btn1070"> 1070 </a>
+                <a href="#" id="btn1071"> 1071 </a>
+                <a href="#" id="btn1072"> 1072 </a>
+                </div>
+                </li>
+            </ul>
+
+        </div>
+
+
+        <div id=camBox-js>
+
+        <iframe id="camView">
+        </iframe>
+        </div>
+        <div class="cambtns-js">
+            <button id="up"><img src="img/up.png"></img></a></button>
+            <button id="down"><img  src="img/down.png"></img></button>
+            <button id="left"><img src="img/left.png"></img></button>
+            <button id="right"><img src="img/right.png"></img></button>
+            <button id="upLeft"><img  src="img/upLeft.png"></img></button>
+            <button id="upRight"><img src="img/upRight.png"></img></button>
+            <button id="downLeft"><img  src="img/downLeft.png"></img></button>
+            <button id="downRight"><img  src="img/downRight.png"></img></button>
+            <button id="zoomIn"><img  src="img/zoomIn.png"></img></button>
+            <button id="zoomOut"><img src="img/zoomOut.png"></img></button>
+            <button id="reset"><img src="img/reset.png"></img></button>
+        </div>
+        <iframe id="camControl-js"></iframe>
+
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
